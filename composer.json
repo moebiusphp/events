@@ -1,0 +1,25 @@
+{
+    "name": "moebius/events",
+    "description": "Event emitter implementation for Moebius",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Moebius\\Events\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frode Børli",
+            "email": "frode@ennerd.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "moebius/loop": "^1.0",
+        "charm/testing": "^1.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/charm-testing"
+    }
+}
